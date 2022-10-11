@@ -1,3 +1,67 @@
 baseURL = 'http://example.org/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Junella Caringal Portfolio'
+theme = 'pulp'
+
+canonifyurls = true
+hasCJKLanguage = true
+# pygmentsCodefences = true
+# pygmentsUseClasses = true
+# googleAnalytics = "{your tracking code}"
+
+[markup.goldmark.renderer]
+    unsafe = true # Allow user HTML tags
+
+[params]
+    author = "Junella Caringal"
+    avatar = "avatar.jpeg"
+    # avatarDescription = "My avatar description"
+    favicon = "favicon_profile.ico"
+    description = """
+       Welcome! 
+    """
+    publicationYear = "2022"
+    # listPageDateFormat = "January, 2006" # See https://gohugo.io/functions/format/
+    # singlePageDateFormat = "January 2, 2006"
+    # custom_css = ["/css/custom.css"]
+    # custom_js = ["/js/custom.js"]
+
+# Make sure setting a following option for search bar to work
+[outputs]
+    section = ["JSON", "HTML"]
+    term = ["JSON", "HTML"]
+
+[[menu.main]]
+    identifier = "linkedin"
+    # name = "LinkedIn"
+    pre = "<i class='fab fa-linkedin fa-lg'></i>"
+    url = "https://www.linkedin.com/in/junella-caringal/"
+    weight = 10
+
+[[menu.main]]
+    identifier = "email"
+    # name = "Email"
+    pre = "<i class='fa fa-envelope fa-lg'></i>"
+    url = "mailto:junellacaringal@gmail.com"
+    weight = 20
+
+[[menu.main]]
+    identifier = "gitlab"
+    # name = "Gitlab" #If display text link, cancel comment out
+    pre = "<i class='fab fa-gitlab fa-lg'></i>" 
+    url = "https://gitlab.com/Junella"
+    weight = 30
+
+[[menu.main]]
+    identifier = "github"
+    # name = "GitHub"
+    pre = "<i class='fab fa-github fa-lg'></i>"
+    url = "https://github.com/Junnanella"
+    weight = 40
+
+[[menu.main]]
+    identifier = "resume"
+    # name = "Resume"
+    pre = "<i>RESUME</i>"
+    url = "https://github.com/Junnanella"
+    weight = 50
