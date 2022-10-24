@@ -1,0 +1,20 @@
+img.coding_icon{
+    max-height: 450px;
+    padding: 0 3em;
+}
+
+img.languageIcon{
+    max-height: 3rem;
+    padding: 3em 2em 0 2em;
+}
+
+img.contactIcon{
+    max-height: 3rem;
+    padding: 1em 2em 0 2em;
+}
+
+img.contactIcon:hover{
+    max-height: 3rem;
+    padding: 1em 2em 0 2em;
+    transform: scale(1.2);
+}

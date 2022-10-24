@@ -1,0 +1,174 @@
+:root {
+  --polka-bg-image:
+  radial-gradient(rgb(215, 196, 237) 10%, transparent 13.6%),
+  radial-gradient(rgb(215, 196, 237) 10%, transparent 13.6%);
+  --polka-bg-position: 0px 0px, 4px 4px;
+  --polka-bg-size: 8px 8px;
+  --polka-bg-color: rgb(248, 247, 247);
+}
+
+body {
+  background-image: var(--polka-bg-image);
+  background-position: var(--polka-bg-position);
+  background-size: var(--polka-bg-size);
+  background-color: var(--polka-bg-color);
+}
+
+div.pageBody{
+  padding-top: 5rem;
+}
+
+#profileContainer{
+  display: flex;
+  justify-items: center;
+  align-content: center;
+  background-color: #feea7840;
+  margin: 1rem;
+  padding: 2rem 2rem 0 2rem;
+  border-radius: 2rem;
+}
+
+div.mainPageContent {
+  justify-content: center;
+  gap: 5rem;
+}
+
+header.mainPageHeader{
+  align-self: flex-start;
+}
+
+div.projectsContainer{
+  margin: 1rem;
+  padding: 5px 2rem 2rem 2rem;
+  background-color: #e9bfff30;
+  border-radius: 2rem;
+}
+
+div.additionalContainer{
+  margin: 1rem;
+  padding: 5px 2rem 2rem 2rem;
+  background-color: #ffbdaf30;
+  border-radius: 2rem;
+}
+
+div.contactsContainer{
+  margin: 1rem;
+  padding: 5px 2rem 2rem 2rem;
+  background-color: #fdef7e30;
+  border-radius: 2rem;
+}
+
+h2.projectHeader{
+  background-color: #e9bfff60;
+  margin: 1em 3em 0 3em;
+  border-radius: 2em;
+  color: #131210;
+}
+
+h2.additionalHeader{
+  background-color: #ffbdaf60;
+  margin: 1em 3em 0 3em;
+  border-radius: 2em;
+  color: #131210;
+}
+
+
+h1.author{
+  align-self: flex-end;
+  color: #131210
+}
+
+div.mainPageContent{
+  display: flex;
+}
+
+div.main {
+    padding-top: 5rem;
+  }
+
+p.description {
+    font-size: 16px;
+    margin: 0;
+    text-align: left;
+    margin-bottom: 5em;
+  }
+  
+#navbar {
+  display: flex;
+  position: fixed;
+  width: 100%;
+  margin-top: .4em;
+  margin-left: 2rem;
+  padding: 0;
+  list-style: none;
+  transition: top 0.5s;
+  background-color: #c39fe5;
+  border-radius: 2em;
+}
+
+a.navLi {
+  text-decoration: none;
+  font-weight: bold;
+  color: #000;
+}
+
+a.navLi:hover, a.navLi:active {
+  color: purple;
+}
+
+a.contentLink{
+  text-decoration: none;
+}
+
+img.featuredImage {
+  max-height: 20em;
+  max-width: 30em;
+  border-radius: 1rem
+}
+
+a.repoLinks {
+  text-decoration: none;
+  padding: 1em;
+}
+
+a.repoLinks:hover, a.repoLinks:active {
+  color: purple;
+}
+
+ul.contactNav{
+  margin: 0 2px 5rem 2px;
+}
+
+h2.contactHeader{
+  background-color: #ffeb7980;
+  margin: 1em 6em 0 6em;
+  border-radius: 2em;
+  color: #131210
+}
+
+h3.projectTitle, h1.projectTitle{
+  color: #4b4b4b;
+  text-decoration: none;
+  margin: 0
+}
+
+div.project{
+  background-color: #e9bfff60;
+  margin-top: 1rem;
+  padding: 1rem;
+  border-radius: 2rem;
+}
+div.additional{
+  background-color: #ffbdaf60;
+  margin-top: 1rem;
+  padding: 1rem;
+  border-radius: 2rem;
+}
+
+div.additionalProject{
+  background-color: #ffbdaf60;
+  margin-top: 1rem;
+  padding: 1rem;
+  border-radius: 2rem;
+}
+
