@@ -18,50 +18,73 @@ hasCJKLanguage = true
     # avatarDescription = "My avatar description"
     favicon = "favicon_profile.ico"
     description = """
-       Welcome! 
+    Hi, there! 
+    <br>
+    <br>
+    Welcome to my portfolio site! I'm a software engineer who enjoys collaboration, building applications to make seemingly simple tasks
+    better, and a sucker for designs with a cutesy aesthetic.
+    <br>
+    <br>
+    Some non-software engineering facts about me:
+    <br>
+        🌼 I got to see BTS in concert before their tickets started becoming so hard to get your hands on
+    <br>
+        🌼 Seafood and fried chicken are the only reasons I can't get myself to be a full-time vegetarian,
+    <br>
+        🌼 I probably spend too much on skincare products that may or may not be doing anything.
+    <br>
+    <br>
+    If you've been here before, there may be some new projects to check out!
+    <br>
+    Feel free to take a look around!
     """
+    # description = """
+    #     Programming : Python3, Javascript ES6+, SQL, HTML5, CSS, Typescript
+    #     <br>
+    #     System Design: Monoliths, Microservices, Domain-Driven Design 
+    #     <br>
+    #     Back-End: Django 4, PostgreSQL, RabbitMQ, MongoDB
+    #     <br>
+    #     Front-End: React, DOM manipulation
+    # """
     publicationYear = "2022"
     # listPageDateFormat = "January, 2006" # See https://gohugo.io/functions/format/
     # singlePageDateFormat = "January 2, 2006"
-    # custom_css = ["/css/custom.css"]
-    # custom_js = ["/js/custom.js"]
+    custom_css = ["/css/custom.css", "/css/icons.css"]
+    custom_js = ["/navbar.js"]
 
 # Make sure setting a following option for search bar to work
 [outputs]
     section = ["JSON", "HTML"]
     term = ["JSON", "HTML"]
 
+[pages]
+    mainSections = ["projects"]
+
 [[menu.main]]
     identifier = "linkedin"
     # name = "LinkedIn"
-    pre = "<i class='fab fa-linkedin fa-lg'></i>"
+    pre = "<i><img class='contactIcon' src='/images/icons/contacts/linkedin.png' alt'linkedin icon'/></i>"
     url = "https://www.linkedin.com/in/junella-caringal/"
     weight = 10
 
 [[menu.main]]
     identifier = "email"
     # name = "Email"
-    pre = "<i class='fa fa-envelope fa-lg'></i>"
+    pre = "<i><img class='contactIcon' src='/images/icons/contacts/email.png' alt'email icon'/></i>"
     url = "mailto:junellacaringal@gmail.com"
     weight = 20
 
 [[menu.main]]
     identifier = "gitlab"
     # name = "Gitlab" #If display text link, cancel comment out
-    pre = "<i class='fab fa-gitlab fa-lg'></i>" 
+    pre = "<i><img class='contactIcon' src='/images/icons/contacts/gitlab.png' alt'gitlab icon'/></i>"
     url = "https://gitlab.com/Junella"
     weight = 30
 
 [[menu.main]]
     identifier = "github"
     # name = "GitHub"
-    pre = "<i class='fab fa-github fa-lg'></i>"
+    pre = "<i><img class='contactIcon' src='/images/icons/contacts/github.png' alt'github icon'/></i>"
     url = "https://github.com/Junnanella"
     weight = 40
-
-[[menu.main]]
-    identifier = "resume"
-    # name = "Resume"
-    pre = "<i>RESUME</i>"
-    url = "https://github.com/Junnanella"
-    weight = 50
