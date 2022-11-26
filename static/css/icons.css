@@ -1,20 +1,40 @@
-img.coding_icon{
-    max-height: 450px;
-    padding: 0 3em;
+div.languageIcon {
+    flex-wrap: wrap;
 }
 
 img.languageIcon{
-    max-height: 3rem;
-    padding: 3em 2em 0 2em;
+    max-height: clamp(45px, 10vw, 90px);
+    padding: 1em 2em 0 2em;
+}
+
+p.languageIconText {
+    font-size: clamp(1rem, .5vw, 1.2rem);
 }
 
 img.contactIcon{
-    max-height: 3rem;
+    max-height: 4rem;
     padding: 1em 2em 0 2em;
+    filter: grayscale(25%) opacity(0.9);
 }
 
 img.contactIcon:hover{
-    max-height: 3rem;
-    padding: 1em 2em 0 2em;
-    transform: scale(1.2);
+    transform: scale(1.05);
+    filter: grayscale(0) opacity(1);
 }
+
+img.headerContact {
+    max-height: clamp(55px, 15vw, 110px);
+    margin: 1rem;
+}
+
+img.headerRepoLink {
+    max-height: clamp(45px, 10vw, 95px);
+}
+
+div.languagesIcons {
+    /* center icons */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
