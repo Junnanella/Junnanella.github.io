@@ -1,5 +1,5 @@
 ---
-title: "Co-Lead Coding Workshop"
+title: "Coding Workshop"
 description: "Build a Serverless Lie Detector that uses AI for Facial Recognition"
 featured_image: "/images/serverless-lie-detector-header.webp"
 feature_image_on_page: false
@@ -11,6 +11,10 @@ weight: 1
 draft: false
 featured: false
 additional: true
+role: "Co-lead 20+ participants through building a serverless application, with use of Courier's API to send notification based on facial recognition results from Azure AI."
+technology: "Serverless, Javascript, Azure, Courier, REST Client"
+industry:
+impact: "<insert>"
 ---
 {{< youtube KnqAe5wFgzU >}}
 

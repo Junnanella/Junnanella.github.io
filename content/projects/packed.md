@@ -2,7 +2,8 @@
 title: "Packed"
 description: "Lorem ipsum dolor sit amet"
 featured_image_on_page: True
-featured_image: "/images/main_page.png"
+featured_image: "/images/project_stills/packed-loggedin-still.jpg"
+featured_gif: "/images/gifs/packed-loggedin.gif"
 imageDescription: "Image of packed home page"
 repo: "Gitlab Repository"
 repo_link: "https://gitlab.com/packed-module-3/packed"
@@ -12,6 +13,10 @@ tags: ["Django", "React", "Python", "JavaScript", "PostgreSQL", "FastAPI", "Dock
 weight: 1
 draft: false
 featured: true
+role: "Team lead in a team of 4. Led frontend techinical planning discussions. Helped un-block teammates on frontend and backend issues. Built most of the frontend."
+technology: "Microservices, React, CSS, Django, FastAPI"
+industry: "Travel"
+impact: "<insert>"
 ---
 
 ### About Application
