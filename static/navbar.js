@@ -1,13 +1,26 @@
-console.warn("HEYO")
-
 // When the user scrolls down, hide the navbar. When the user scrolls up, show the navbar */
 var prevScrollpos = window.pageYOffset; 
 window.onscroll = function() {
-    var currentScrollPos = window.pageYOffset;
+    let currentScrollPos = window.pageYOffset;   
     if (prevScrollpos > currentScrollPos) {
-        document.getElementById("navbar").style.top = "0";
+        // if mobile, hide navbar on scroll
+        if (window.innerWidth < 768) {
+            document.getElementById("hireMeLink").style.bottom = "-75px";
+        } else {
+             // document.getElementById("navbar").style.top = "0";
+            document.getElementById("hireMeLink").style.top = "-20%";
+            document.getElementById("hireMeLink").style.opacity = "0";
+        }
     } else {
-        document.getElementById("navbar").style.top = "-75px";
+        if (window.innerWidth < 768) {
+            document.getElementById("hireMeLink").style.bottom = "0";
+        } else {
+            // document.getElementById("navbar").style.top = "-75px";
+            document.getElementById("hireMeLink").style.top = "0"
+            document.getElementById("hireMeLink").style.opacity = "1";
+        }
     }
     prevScrollpos = currentScrollPos;
     }
+
+
