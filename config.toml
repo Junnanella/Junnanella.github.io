@@ -18,25 +18,9 @@ hasCJKLanguage = true
     # avatarDescription = "My avatar description"
     favicon = "favicon_profile.ico"
     description = """
-    Hi, there! 
     <br>
-    <br>
-    Welcome to my portfolio site! I'm a software engineer who enjoys collaboration, building applications to make seemingly simple tasks
+    I'm a software engineer who enjoys collaboration, building applications to make seemingly simple tasks
     better, and a sucker for designs with a cutesy aesthetic.
-    <br>
-    <br>
-    Some non-software engineering facts about me:
-    <br>
-        🌼 I got to see BTS in concert before their tickets started becoming so hard to get your hands on
-    <br>
-        🌼 Seafood and fried chicken are the only reasons I can't get myself to be a full-time vegetarian,
-    <br>
-        🌼 I probably spend too much on skincare products that may or may not be doing anything.
-    <br>
-    <br>
-    If you've been here before, there may be some new projects to check out!
-    <br>
-    Feel free to take a look around!
     """
     # description = """
     #     Programming : Python3, Javascript ES6+, SQL, HTML5, CSS, Typescript
@@ -88,3 +72,15 @@ hasCJKLanguage = true
     pre = "<i><img class='contactIcon' src='/images/icons/contacts/github.png' alt'github icon'/></i>"
     url = "https://github.com/Junnanella"
     weight = 40
+
+
+#    <br>
+#     <br>
+#     Some non-software engineering facts about me:
+#     <br>
+#         🌼 I got to see BTS in concert before their tickets started becoming so hard to get your hands on
+#     <br>
+#         🌼 Seafood and fried chicken are the only reasons I can't get myself to be a full-time vegetarian.
+#     <br>
+#         🌼 I probably spend too much on skincare products that may or may not be doing anything.
+#     <br>
