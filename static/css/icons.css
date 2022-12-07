@@ -3,12 +3,14 @@ div.languageIcon {
 }
 
 img.languageIcon{
-    max-height: clamp(45px, 10vw, 90px);
-    padding: 1em 2em 0 2em;
+    max-height: clamp(40px, 8vw, 60px);
+    padding: 1em 0 0 0;
+    filter: grayscale(.2) contrast(0.9);
 }
 
 p.languageIconText {
-    font-size: clamp(1rem, .5vw, 1.2rem);
+
+    font-size: clamp(.8rem, .3vw, 1rem);
 }
 
 img.contactIcon{

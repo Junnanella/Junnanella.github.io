@@ -18,6 +18,11 @@ html, body {
   overflow-x: hidden;
 } 
 
+/* div.main {
+  max-width: 1280px;
+  align-items: center;
+} */
+
 div.headerContacts {
   padding: 2rem;
   /* background-image: url("/images/dottedline.png");
