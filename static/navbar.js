@@ -14,6 +14,7 @@ window.onscroll = function() {
     } else {
         if (window.innerWidth < 768) {
             document.getElementById("hireMeLink").style.bottom = "0";
+            document.getElementById("hireMeLink").style.transition = "top .5s";
         } else {
             // document.getElementById("navbar").style.top = "-75px";
             document.getElementById("hireMeLink").style.top = "0"
