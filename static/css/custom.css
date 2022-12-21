@@ -239,6 +239,10 @@ img.featuredImage {
   filter: blur(1.2px) contrast(90%);
 }
 
+img.courierFeaturedImage {
+  width: 95%;
+}
+
 img.pageGif {
   position: relative;
   left:0;
