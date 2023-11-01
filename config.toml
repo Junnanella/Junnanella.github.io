@@ -13,7 +13,7 @@ hasCJKLanguage = true
 unsafe = true # Allow user HTML tags
 
 [params]
-author = "Junella Caringal"
+author = "Junella Marie Caringal"
 avatar = "avatar.jpeg"
 # avatarDescription = "My avatar description"
 favicon = "favicon_profile.ico"
