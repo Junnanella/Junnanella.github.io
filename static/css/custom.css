@@ -63,7 +63,6 @@ nav#hireMeLink:hover {
 #navbar {
   display: flex;
   position: fixed;
-  /* width: 100%; */
   margin-top: .5rem;
   margin-left: 2rem;
   list-style: none;
