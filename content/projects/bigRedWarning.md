@@ -2,8 +2,8 @@
 title: "Big Red Warning (available on the App Store)"
 description: "Lorem ipsum dolor sit amet"
 featured_image_on_page: True
-featured_image: "/images/project_stills/demoOfWarningWindowPopup-still.png"
-featured_gif: "/images/gifs/demoOfWarningWindowPopup.gif"
+featured_image: "/images/project_stills/demoOfApp-still.png"
+featured_gif: "/images/gifs/short-DemoOfApp.gif"
 imageDescription: "Image of packed home page"
 repo: "Website"
 repo_link: "http://www.bigredwarning.com/"
