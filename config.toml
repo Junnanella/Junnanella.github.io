@@ -10,67 +10,67 @@ hasCJKLanguage = true
 # googleAnalytics = "{your tracking code}"
 
 [markup.goldmark.renderer]
-    unsafe = true # Allow user HTML tags
+unsafe = true # Allow user HTML tags
 
 [params]
-    author = "Junella Caringal"
-    avatar = "avatar.jpeg"
-    # avatarDescription = "My avatar description"
-    favicon = "favicon_profile.ico"
-    description = """
+author = "Junella Caringal"
+avatar = "avatar.jpeg"
+# avatarDescription = "My avatar description"
+favicon = "favicon_profile.ico"
+description = """
     <br>
     Full-stack React and Python developer, seeking junior and apprenticeship positions in the Bay Area.
     """
-    # description = """
-    #     Programming : Python3, Javascript ES6+, SQL, HTML5, CSS, Typescript
-    #     <br>
-    #     System Design: Monoliths, Microservices, Domain-Driven Design 
-    #     <br>
-    #     Back-End: Django 4, PostgreSQL, RabbitMQ, MongoDB
-    #     <br>
-    #     Front-End: React, DOM manipulation
-    # """
-    publicationYear = "2022"
-    # listPageDateFormat = "January, 2006" # See https://gohugo.io/functions/format/
-    # singlePageDateFormat = "January 2, 2006"
-    custom_css = ["/css/custom.css", "/css/icons.css"]
-    custom_js = ["/navbar.js"]
+# description = """
+#     Programming : Python3, Javascript ES6+, SQL, HTML5, CSS, Typescript
+#     <br>
+#     System Design: Monoliths, Microservices, Domain-Driven Design 
+#     <br>
+#     Back-End: Django 4, PostgreSQL, RabbitMQ, MongoDB
+#     <br>
+#     Front-End: React, DOM manipulation
+# """
+publicationYear = "2022"
+# listPageDateFormat = "January, 2006" # See https://gohugo.io/functions/format/
+# singlePageDateFormat = "January 2, 2006"
+custom_css = ["/css/custom.css", "/css/icons.css"]
+custom_js = ["/hireMeNavbar.js", "/homeNavbar.js"]
 
 # Make sure setting a following option for search bar to work
 [outputs]
-    section = ["JSON", "HTML"]
-    term = ["JSON", "HTML"]
+section = ["JSON", "HTML"]
+term = ["JSON", "HTML"]
 
 [pages]
-    mainSections = ["projects"]
+mainSections = ["projects"]
 
 [[menu.main]]
-    identifier = "linkedin"
-    # name = "LinkedIn"
-    pre = "<i><img class='contactIcon' src='/images/icons/contacts/linkedin.png' alt'linkedin icon'/></i>"
-    url = "https://www.linkedin.com/in/junella-caringal/"
-    weight = 10
+identifier = "linkedin"
+# name = "LinkedIn"
+pre = "<i><img class='contactIcon' src='/images/icons/contacts/linkedin.png' alt'linkedin icon'/></i>"
+url = "https://www.linkedin.com/in/junella-caringal/"
+weight = 10
 
 [[menu.main]]
-    identifier = "email"
-    # name = "Email"
-    pre = "<i><img class='contactIcon' src='/images/icons/contacts/email.png' alt'email icon'/></i>"
-    url = "mailto:junellacaringal@gmail.com"
-    weight = 20
+identifier = "email"
+# name = "Email"
+pre = "<i><img class='contactIcon' src='/images/icons/contacts/email.png' alt'email icon'/></i>"
+url = "mailto:junellacaringal@gmail.com"
+weight = 20
 
 [[menu.main]]
-    identifier = "gitlab"
-    # name = "Gitlab" #If display text link, cancel comment out
-    pre = "<i><img class='contactIcon' src='/images/icons/contacts/gitlab.png' alt'gitlab icon'/></i>"
-    url = "https://gitlab.com/Junella"
-    weight = 30
+identifier = "gitlab"
+# name = "Gitlab" #If display text link, cancel comment out
+pre = "<i><img class='contactIcon' src='/images/icons/contacts/gitlab.png' alt'gitlab icon'/></i>"
+url = "https://gitlab.com/Junella"
+weight = 30
 
 [[menu.main]]
-    identifier = "github"
-    # name = "GitHub"
-    pre = "<i><img class='contactIcon' src='/images/icons/contacts/github.png' alt'github icon'/></i>"
-    url = "https://github.com/Junnanella"
-    weight = 40
+identifier = "github"
+# name = "GitHub"
+pre = "<i><img class='contactIcon' src='/images/icons/contacts/github.png' alt'github icon'/></i>"
+url = "https://github.com/Junnanella"
+weight = 40
 
 
 #    <br>

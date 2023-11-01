@@ -41,7 +41,7 @@ nav#hireMeLink {
   width: 100%;
   padding: 10px;
   box-shadow: inset 0 0 0 1px #f760a9;
-  transition: top .5s;
+  transition: top .5s, opacity .5s;
   z-index: 2;
   justify-content: center;
   align-items: center;
@@ -63,7 +63,7 @@ nav#hireMeLink:hover {
 #navbar {
   display: flex;
   position: fixed;
-  width: 100%;
+  /* width: 100%; */
   margin-top: .5rem;
   margin-left: 2rem;
   list-style: none;
@@ -115,7 +115,7 @@ div.parent {
   position: relative;
 }
 
-img.play-overlay{
+img.play-button-overlay{
   position: absolute;
   max-height: clamp(8rem, 10vw, 10rem);
   left:0;
@@ -258,7 +258,7 @@ div.parent:hover img.featuredImage {
   filter: blur(0px) contrast(1);
 }
 
-div.parent:hover img.play-overlay{
+div.parent:hover img.play-button-overlay{
   filter: opacity(0%);
 }
 
